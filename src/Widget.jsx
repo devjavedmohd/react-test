@@ -64,7 +64,7 @@ const Widget = ({ widget, isActive, updateWidget }) => {
                 </div>
                 <div>
                     <div className="widget-action">This product {widget.action}</div>
-                    <h3 className="widget-amount-type">{widget.amount}
+                    <h3 className="widget-amount-type">{widget.amount}&nbsp;
                         {widget.type === "plastic"
                             ? "plastic bottles"
                             : widget.type === "trees"

@@ -1,9 +1,9 @@
-.widget-card {
+.widget {
   border-radius: 8px;
-  width: 222px;
+  width: 225px;
 }
 @media (max-width: 768px) {
-  .widget-card {
+  .widget {
     width: 100%;
   }
 }
@@ -30,6 +30,7 @@
   border-radius: 6px;
   color: #fff;
   border: none;
+  display: flex;
 }
 .widget-action {
   margin-bottom: 4px;
@@ -233,6 +234,7 @@
   content: "";
   width: 5px;
   height: 10px;
+  margin-top: -3px;
   border-style: solid;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
